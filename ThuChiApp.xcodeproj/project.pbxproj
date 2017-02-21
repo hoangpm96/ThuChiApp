@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2EA74F41E5C691800F58E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA74F31E5C691800F58E57 /* AppDelegate.swift */; };
+		F2EA74F61E5C691800F58E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA74F51E5C691800F58E57 /* ViewController.swift */; };
+		F2EA74F91E5C691800F58E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EA74F71E5C691800F58E57 /* Main.storyboard */; };
+		F2EA74FC1E5C691800F58E57 /* ThuChiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2EA74FA1E5C691800F58E57 /* ThuChiApp.xcdatamodeld */; };
+		F2EA74FE1E5C691800F58E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EA74FD1E5C691800F58E57 /* Assets.xcassets */; };
+		F2EA75011E5C691800F58E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EA74FF1E5C691800F58E57 /* LaunchScreen.storyboard */; };
+		F2EA750C1E5C691900F58E57 /* ThuChiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA750B1E5C691900F58E57 /* ThuChiAppTests.swift */; };
+		F2EA75171E5C691900F58E57 /* ThuChiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA75161E5C691900F58E57 /* ThuChiAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2EA75081E5C691900F58E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2EA74E81E5C691800F58E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2EA74EF1E5C691800F58E57;
+			remoteInfo = ThuChiApp;
+		};
+		F2EA75131E5C691900F58E57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2EA74E81E5C691800F58E57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2EA74EF1E5C691800F58E57;
+			remoteInfo = ThuChiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2EA74F01E5C691800F58E57 /* ThuChiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThuChiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EA74F31E5C691800F58E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2EA74F51E5C691800F58E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2EA74F81E5C691800F58E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2EA74FB1E5C691800F58E57 /* ThuChiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThuChiApp.xcdatamodel; sourceTree = "<group>"; };
+		F2EA74FD1E5C691800F58E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2EA75001E5C691800F58E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2EA75021E5C691800F58E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2EA75071E5C691900F58E57 /* ThuChiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThuChiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EA750B1E5C691900F58E57 /* ThuChiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThuChiAppTests.swift; sourceTree = "<group>"; };
+		F2EA750D1E5C691900F58E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2EA75121E5C691900F58E57 /* ThuChiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThuChiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EA75161E5C691900F58E57 /* ThuChiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThuChiAppUITests.swift; sourceTree = "<group>"; };
+		F2EA75181E5C691900F58E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2EA74ED1E5C691800F58E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EA75041E5C691900F58E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EA750F1E5C691900F58E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2EA74E71E5C691800F58E57 = {
+			isa = PBXGroup;
+			children = (
+				F2EA74F21E5C691800F58E57 /* ThuChiApp */,
+				F2EA750A1E5C691900F58E57 /* ThuChiAppTests */,
+				F2EA75151E5C691900F58E57 /* ThuChiAppUITests */,
+				F2EA74F11E5C691800F58E57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2EA74F11E5C691800F58E57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2EA74F01E5C691800F58E57 /* ThuChiApp.app */,
+				F2EA75071E5C691900F58E57 /* ThuChiAppTests.xctest */,
+				F2EA75121E5C691900F58E57 /* ThuChiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2EA74F21E5C691800F58E57 /* ThuChiApp */ = {
+			isa = PBXGroup;
+			children = (
+				F2EA74F31E5C691800F58E57 /* AppDelegate.swift */,
+				F2EA74F51E5C691800F58E57 /* ViewController.swift */,
+				F2EA74F71E5C691800F58E57 /* Main.storyboard */,
+				F2EA74FD1E5C691800F58E57 /* Assets.xcassets */,
+				F2EA74FF1E5C691800F58E57 /* LaunchScreen.storyboard */,
+				F2EA75021E5C691800F58E57 /* Info.plist */,
+				F2EA74FA1E5C691800F58E57 /* ThuChiApp.xcdatamodeld */,
+			);
+			path = ThuChiApp;
+			sourceTree = "<group>";
+		};
+		F2EA750A1E5C691900F58E57 /* ThuChiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2EA750B1E5C691900F58E57 /* ThuChiAppTests.swift */,
+				F2EA750D1E5C691900F58E57 /* Info.plist */,
+			);
+			path = ThuChiAppTests;
+			sourceTree = "<group>";
+		};
+		F2EA75151E5C691900F58E57 /* ThuChiAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2EA75161E5C691900F58E57 /* ThuChiAppUITests.swift */,
+				F2EA75181E5C691900F58E57 /* Info.plist */,
+			);
+			path = ThuChiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2EA74EF1E5C691800F58E57 /* ThuChiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EA751B1E5C691900F58E57 /* Build configuration list for PBXNativeTarget "ThuChiApp" */;
+			buildPhases = (
+				F2EA74EC1E5C691800F58E57 /* Sources */,
+				F2EA74ED1E5C691800F58E57 /* Frameworks */,
+				F2EA74EE1E5C691800F58E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThuChiApp;
+			productName = ThuChiApp;
+			productReference = F2EA74F01E5C691800F58E57 /* ThuChiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2EA75061E5C691900F58E57 /* ThuChiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EA751E1E5C691900F58E57 /* Build configuration list for PBXNativeTarget "ThuChiAppTests" */;
+			buildPhases = (
+				F2EA75031E5C691900F58E57 /* Sources */,
+				F2EA75041E5C691900F58E57 /* Frameworks */,
+				F2EA75051E5C691900F58E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2EA75091E5C691900F58E57 /* PBXTargetDependency */,
+			);
+			name = ThuChiAppTests;
+			productName = ThuChiAppTests;
+			productReference = F2EA75071E5C691900F58E57 /* ThuChiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2EA75111E5C691900F58E57 /* ThuChiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EA75211E5C691900F58E57 /* Build configuration list for PBXNativeTarget "ThuChiAppUITests" */;
+			buildPhases = (
+				F2EA750E1E5C691900F58E57 /* Sources */,
+				F2EA750F1E5C691900F58E57 /* Frameworks */,
+				F2EA75101E5C691900F58E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2EA75141E5C691900F58E57 /* PBXTargetDependency */,
+			);
+			name = ThuChiAppUITests;
+			productName = ThuChiAppUITests;
+			productReference = F2EA75121E5C691900F58E57 /* ThuChiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2EA74E81E5C691800F58E57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HoangPhan;
+				TargetAttributes = {
+					F2EA74EF1E5C691800F58E57 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F2EA75061E5C691900F58E57 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2EA74EF1E5C691800F58E57;
+					};
+					F2EA75111E5C691900F58E57 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2EA74EF1E5C691800F58E57;
+					};
+				};
+			};
+			buildConfigurationList = F2EA74EB1E5C691800F58E57 /* Build configuration list for PBXProject "ThuChiApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2EA74E71E5C691800F58E57;
+			productRefGroup = F2EA74F11E5C691800F58E57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2EA74EF1E5C691800F58E57 /* ThuChiApp */,
+				F2EA75061E5C691900F58E57 /* ThuChiAppTests */,
+				F2EA75111E5C691900F58E57 /* ThuChiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2EA74EE1E5C691800F58E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EA75011E5C691800F58E57 /* LaunchScreen.storyboard in Resources */,
+				F2EA74FE1E5C691800F58E57 /* Assets.xcassets in Resources */,
+				F2EA74F91E5C691800F58E57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EA75051E5C691900F58E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EA75101E5C691900F58E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2EA74EC1E5C691800F58E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EA74F61E5C691800F58E57 /* ViewController.swift in Sources */,
+				F2EA74F41E5C691800F58E57 /* AppDelegate.swift in Sources */,
+				F2EA74FC1E5C691800F58E57 /* ThuChiApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EA75031E5C691900F58E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EA750C1E5C691900F58E57 /* ThuChiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EA750E1E5C691900F58E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EA75171E5C691900F58E57 /* ThuChiAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2EA75091E5C691900F58E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2EA74EF1E5C691800F58E57 /* ThuChiApp */;
+			targetProxy = F2EA75081E5C691900F58E57 /* PBXContainerItemProxy */;
+		};
+		F2EA75141E5C691900F58E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2EA74EF1E5C691800F58E57 /* ThuChiApp */;
+			targetProxy = F2EA75131E5C691900F58E57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2EA74F71E5C691800F58E57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2EA74F81E5C691800F58E57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2EA74FF1E5C691800F58E57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2EA75001E5C691800F58E57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2EA75191E5C691900F58E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2EA751A1E5C691900F58E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2EA751C1E5C691900F58E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThuChiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HoangPhan.ThuChiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F2EA751D1E5C691900F58E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ThuChiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HoangPhan.ThuChiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F2EA751F1E5C691900F58E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThuChiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HoangPhan.ThuChiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThuChiApp.app/ThuChiApp";
+			};
+			name = Debug;
+		};
+		F2EA75201E5C691900F58E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ThuChiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HoangPhan.ThuChiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThuChiApp.app/ThuChiApp";
+			};
+			name = Release;
+		};
+		F2EA75221E5C691900F58E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ThuChiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HoangPhan.ThuChiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ThuChiApp;
+			};
+			name = Debug;
+		};
+		F2EA75231E5C691900F58E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ThuChiAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HoangPhan.ThuChiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ThuChiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2EA74EB1E5C691800F58E57 /* Build configuration list for PBXProject "ThuChiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EA75191E5C691900F58E57 /* Debug */,
+				F2EA751A1E5C691900F58E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2EA751B1E5C691900F58E57 /* Build configuration list for PBXNativeTarget "ThuChiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EA751C1E5C691900F58E57 /* Debug */,
+				F2EA751D1E5C691900F58E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2EA751E1E5C691900F58E57 /* Build configuration list for PBXNativeTarget "ThuChiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EA751F1E5C691900F58E57 /* Debug */,
+				F2EA75201E5C691900F58E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2EA75211E5C691900F58E57 /* Build configuration list for PBXNativeTarget "ThuChiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EA75221E5C691900F58E57 /* Debug */,
+				F2EA75231E5C691900F58E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2EA74FA1E5C691800F58E57 /* ThuChiApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2EA74FB1E5C691800F58E57 /* ThuChiApp.xcdatamodel */,
+			);
+			currentVersion = F2EA74FB1E5C691800F58E57 /* ThuChiApp.xcdatamodel */;
+			path = ThuChiApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2EA74E81E5C691800F58E57 /* Project object */;
+}
