@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		F2EA74F41E5C691800F58E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA74F31E5C691800F58E57 /* AppDelegate.swift */; };
-		F2EA74F61E5C691800F58E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA74F51E5C691800F58E57 /* ViewController.swift */; };
+		F2EA74F61E5C691800F58E57 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA74F51E5C691800F58E57 /* HomeVC.swift */; };
 		F2EA74F91E5C691800F58E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EA74F71E5C691800F58E57 /* Main.storyboard */; };
 		F2EA74FC1E5C691800F58E57 /* ThuChiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2EA74FA1E5C691800F58E57 /* ThuChiApp.xcdatamodeld */; };
 		F2EA74FE1E5C691800F58E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EA74FD1E5C691800F58E57 /* Assets.xcassets */; };
 		F2EA75011E5C691800F58E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2EA74FF1E5C691800F58E57 /* LaunchScreen.storyboard */; };
 		F2EA750C1E5C691900F58E57 /* ThuChiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA750B1E5C691900F58E57 /* ThuChiAppTests.swift */; };
 		F2EA75171E5C691900F58E57 /* ThuChiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA75161E5C691900F58E57 /* ThuChiAppUITests.swift */; };
+		F2EA75251E5C831B00F58E57 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA75241E5C831B00F58E57 /* Expense.swift */; };
+		F2EA75271E5C881E00F58E57 /* ExpenseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EA75261E5C881E00F58E57 /* ExpenseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* Begin PBXFileReference section */
 		F2EA74F01E5C691800F58E57 /* ThuChiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThuChiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2EA74F31E5C691800F58E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2EA74F51E5C691800F58E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2EA74F51E5C691800F58E57 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F2EA74F81E5C691800F58E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2EA74FB1E5C691800F58E57 /* ThuChiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThuChiApp.xcdatamodel; sourceTree = "<group>"; };
 		F2EA74FD1E5C691800F58E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		F2EA75121E5C691900F58E57 /* ThuChiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThuChiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2EA75161E5C691900F58E57 /* ThuChiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThuChiAppUITests.swift; sourceTree = "<group>"; };
 		F2EA75181E5C691900F58E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2EA75241E5C831B00F58E57 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		F2EA75261E5C881E00F58E57 /* ExpenseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 		F2EA74F21E5C691800F58E57 /* ThuChiApp */ = {
 			isa = PBXGroup;
 			children = (
+				F2EA752B1E5C886E00F58E57 /* Controller */,
+				F2EA752A1E5C886700F58E57 /* View */,
+				F2EA75291E5C886000F58E57 /* Model */,
 				F2EA74F31E5C691800F58E57 /* AppDelegate.swift */,
-				F2EA74F51E5C691800F58E57 /* ViewController.swift */,
 				F2EA74F71E5C691800F58E57 /* Main.storyboard */,
 				F2EA74FD1E5C691800F58E57 /* Assets.xcassets */,
 				F2EA74FF1E5C691800F58E57 /* LaunchScreen.storyboard */,
@@ -126,6 +132,30 @@
 				F2EA75181E5C691900F58E57 /* Info.plist */,
 			);
 			path = ThuChiAppUITests;
+			sourceTree = "<group>";
+		};
+		F2EA75291E5C886000F58E57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F2EA75241E5C831B00F58E57 /* Expense.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F2EA752A1E5C886700F58E57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2EA75261E5C881E00F58E57 /* ExpenseCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F2EA752B1E5C886E00F58E57 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2EA74F51E5C691800F58E57 /* HomeVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +292,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2EA74F61E5C691800F58E57 /* ViewController.swift in Sources */,
+				F2EA75251E5C831B00F58E57 /* Expense.swift in Sources */,
+				F2EA74F61E5C691800F58E57 /* HomeVC.swift in Sources */,
+				F2EA75271E5C881E00F58E57 /* ExpenseCell.swift in Sources */,
 				F2EA74F41E5C691800F58E57 /* AppDelegate.swift in Sources */,
 				F2EA74FC1E5C691800F58E57 /* ThuChiApp.xcdatamodeld in Sources */,
 			);
@@ -415,10 +447,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ThuChiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HoangPhan.ThuChiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -427,10 +461,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ThuChiApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HoangPhan.ThuChiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
